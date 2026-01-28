@@ -54,6 +54,7 @@ jobs:
       - name: Subir Artifactos de despliegue
         uses: actions/upload-pages-artifact@v3
         with:
+          #nuevo
           path: ./
 
       - name: Iniciar despliegue a Pages
